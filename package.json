@@ -1,0 +1,38 @@
+{
+  "name": "portfolio2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://francobernardii.github.io/Portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "antd": "^5.4.6",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^10.12.7",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.6.1",
+    "react-typed": "^1.2.0",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^4.0.0",
+    "install-peers": "^1.0.4",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
